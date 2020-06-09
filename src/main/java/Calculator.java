@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Calculator {
+
     public int a;
     public int b;
 
