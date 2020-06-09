@@ -64,6 +64,7 @@ public class vkTest {
 
         // проверка отправки сообщения
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"content\"]/div/div[1]/div[3]/div[2]/div[3]/div/div/div[2]/div/div[1]/div/div[2]/ul/li/div[3]")));
+
         WebElement result = driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[1]/div[3]/div[2]/div[3]/div/div/div[2]/div/div[1]/div/div[2]/ul/li/div[3]"));
         if (result.isDisplayed()) {
             System.out.println("The message has been sent. Test passed");
