@@ -6,7 +6,7 @@
             <class name="calculator.TestCalculator"/>
         </classes>
     </test>
-    <test name="Authorization">
+    <test name="Vkontakte">
         <classes>
             <class name="vk.vkTest"/>
         </classes>

@@ -1,17 +1,10 @@
 package calculator;
 
-        import org.testng.Assert;
-        import org.testng.annotations.BeforeClass;
-        import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 public class TestCalculator {
-//    Взять программу Calculator, которую Вы писали в одном из предыдущих дз,
-//    добавить в нее не менее 5 математических действий и написать 5 авто тестов
-//    на каждое математическое действие. Calculator должен быть написан в модуле main maven-проекта,
-//    тесты пишем ВСЕГДА в модуле test maven-проекта.
-//
-//    Каждый авто тест должен быть описан через аннотацию @Test, должен иметь конфигурационные методы.
-//    Тесты должны запускать через testng.xml командой mvn clean test.
 
     public int a;
     public int b;
